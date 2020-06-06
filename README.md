@@ -16,7 +16,7 @@ This test framework has been created using Java, Selenium WebDriver, TestNG and 
 ## To Run UI tests only
   Run command ``mvn clean test -Dgroups=ui_test``
 ## To Run API tests only
-    Run command ``mvn clean test -Dgroups=api_test``
+  Run command ``mvn clean test -Dgroups=api_test``
     
 ## Tests
 There are two Test classes found under /test/java/tmsandbox/tests directory. The 'UsedCarsUITests' class contains 3 tests to do the following:
@@ -35,11 +35,4 @@ The 'UsedCarsAPITests' class contains 3 tests to do the following:
 
 ## WebDriver UI Tests
 The WebDriver UI Tests are designed to run on Chrome or Firefox. The tests are run in parallel - the number of threads can be changed in the pom.xml file.
-
-
-
-
-
-
-
 
