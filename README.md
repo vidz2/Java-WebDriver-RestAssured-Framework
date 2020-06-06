@@ -3,8 +3,8 @@
 This test framework has been created using Java, Selenium WebDriver, TestNG and RestAssured. 
 
 ## Prerequisites: ##
-   * Java 1.8.x
-   * Apache Maven 3 or above
+   * Java JDK 1.8.x https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
+   * Apache Maven 3 or above https://maven.apache.org/download.cgi
    
 ## Execution
 
@@ -35,4 +35,7 @@ The 'UsedCarsAPITests' class contains 3 tests to do the following:
 
 ## WebDriver UI Tests
 The WebDriver UI Tests are designed to run on Chrome or Firefox. The tests are run in parallel - the number of threads can be changed in the pom.xml file.
+
+## Report
+Extent HTML report and Maven surefire reports are generated after the run. Extent HTML report can be found in the /results/html_report directory.
 
