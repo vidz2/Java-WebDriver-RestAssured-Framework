@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TMSandboxTests">
+    <test name="Regression">
+        <groups>
+            <run>
+                <include name = "ui_test" />
+                <include name = "api_test" />
+            </run>
+        </groups>
+        <classes>
+            <class name="tmsandbox.tests.UsedCarsApiTests"/>
+            <class name="tmsandbox.tests.UsedCarsUITests"/>
+        </classes>
+
+    </test>
+</suite>
